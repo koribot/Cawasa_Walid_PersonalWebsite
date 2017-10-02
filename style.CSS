@@ -1,0 +1,170 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+ display: block;}
+
+ body {
+      color: #666666
+      height:1000px;
+      background-color: skyblue;
+      background-image: url(images/background.jpg);
+      background-size:100%;
+      background-position: center;
+      font-family: Georgia, serif, times new roman;
+      line-height: 1.2em; 
+   
+       
+}
+ 
+.wrapper {
+            width: 1050px;
+
+            color:black;
+            background-align:center;
+            margin: 20px auto 20px auto;
+            border: 2px solid brown;
+            background-color: brown;
+ }
+
+header {
+       height: 180px;
+       background-image: url(images/penguins.jpg);
+      background-size:50%;
+}
+
+ h1 {
+    text-indent:-150px;
+    text-align: center;
+    color:brown;
+    font-size:80;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+}
+ 
+ nav ul {
+        margin: 0px;
+         padding: 5px 0px 5px 30px;
+         background: grey;
+         height:20px;
+ }
+ nav li {
+        display: inline;
+        margin-right: 40px;
+        
+        
+  }
+ nav li a {
+    color: skyblue;
+ }
+ nav li a:hover, nav li a.current {
+      color: white;
+
+  }
+ section.content {
+         float: left;
+         width: 699px;
+         height:1200px;
+         
+         
+  }
+
+section.profile{
+          border-left: 5px solid grey ; 
+          min-height:530px;
+          font-size:15px;
+          
+         
+}
+
+ article {
+       clear: both;
+        overflow: auto;
+        width: 100%;
+        color:black; 
+
+        font-size:18;
+}
+
+
+ hgroup {
+       margin-top:40px;
+  }
+ 
+ figcaption {
+      font-size: 90%;
+      text-align: left;
+      color:black;
+}
+
+figure {
+      float: left;
+      width: 240px;
+      height: 220px;
+      padding: 5px;
+      margin: 20px;
+     
+
+}
+ aside{
+       width: 230px;
+       float: left;
+       padding: 0px 0px 0px 50px;
+ }
+ aside section a {
+         display: block;
+          padding: 10px;
+          color:black; 
+          min-font-size:25px;       
+
+}
+ aside section a:hover {
+           color:white;
+            background-color: black;
+            
+}
+a {
+
+ text-decoration: none;
+}
+
+  h2, h3 {
+
+ color:skyblue;
+
+}
+ h2 { 
+      
+      margin: 10px 0px 5px 0px;
+      padding: 0px;
+
+}
+ 
+
+
+ aside h2 {
+         padding: 30px 0px 10px 0px;
+        
+}
+
+section.music{
+    width:1050px;
+    
+    font-size:20px; 
+    border-top: 5px solid grey;
+    
+     
+}
+
+
+ footer {
+ font-size: 100%;
+ padding: 7px 0px 0px 20px;
+
+}
+footer {
+    clear: both;
+    color:  #ffffff;
+    background-color: grey;
+    height: 40px;
+}
+
