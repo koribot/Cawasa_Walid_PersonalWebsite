@@ -5,12 +5,14 @@ header, section, footer, aside, nav, article, figure, figcaption {
       color: #666666
       height:1000px;
       background-color: skyblue;
-      background-image: url(images/background.jpg);
+      background-image: url(background.jpg);
       background-size:100%;
       background-position: center;
       font-family: Georgia, serif, times new roman;
-      line-height: 1.2em; 
-   
+      line-height: 1.2em; 
+
+   
+
        
 }
  
@@ -26,7 +28,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 
 header {
        height: 180px;
-       background-image: url(images/penguins.jpg);
+       background-image: url(penguins.jpg);
       background-size:50%;
 }
 
